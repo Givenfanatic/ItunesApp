@@ -1,0 +1,9 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 119, 214);
+    /* Use rgba to set the background color with an opacity */
+    padding: 1rem;
+    box-shadow: rgba(163, 163, 163, 0.1);
+}

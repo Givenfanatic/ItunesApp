@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchForm should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="search-form"
+  >
+    <form
+      class=""
+    >
+      <div>
+        <label
+          class="form-label"
+          for="formSearchTerm"
+        >
+          Search Term
+        </label>
+        <input
+          class="form-control"
+          id="formSearchTerm"
+          type="text"
+          value=""
+        />
+      </div>
+      <div>
+        <label
+          class="form-label"
+          for="formMediaType"
+        >
+          Media Type
+        </label>
+        <select
+          class="form-control"
+          id="formMediaType"
+        >
+          <option
+            value="all"
+          >
+            All
+          </option>
+          <option
+            value="movie"
+          >
+            Movie
+          </option>
+          <option
+            value="podcast"
+          >
+            Podcast
+          </option>
+          <option
+            value="music"
+          >
+            Music
+          </option>
+          <option
+            value="audiobook"
+          >
+            Audiobook
+          </option>
+          <option
+            value="shortFilm"
+          >
+            Short Film
+          </option>
+          <option
+            value="tvShow"
+          >
+            TV Show
+          </option>
+          <option
+            value="software"
+          >
+            Software
+          </option>
+          <option
+            value="ebook"
+          >
+            Ebook
+          </option>
+        </select>
+      </div>
+      <button
+        class="btn btn-primary"
+        style="margin-bottom: 10px;"
+        type="submit"
+      >
+        Search
+      </button>
+    </form>
+    <div
+      class="result-container"
+    />
+  </div>
+</DocumentFragment>
+`;
