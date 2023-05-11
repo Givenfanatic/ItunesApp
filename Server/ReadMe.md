@@ -38,3 +38,5 @@ Click the "Send" button to send the request. The response should contain a messa
 The server is setup to intercept calls made from our react front end.
 
 To test the back-end cd to Serverh and run npm test, this will run tests with Jest
+
+We use Helmet to set default security values information on default settings can be found here -> https://helmetjs.github.io/
